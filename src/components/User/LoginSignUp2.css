@@ -1,0 +1,121 @@
+.LoginSignUpContainer2 {
+  width: 100vw;
+  height: 80vh;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(235, 235, 235);
+  position: fixed;
+  top: 0%;
+  left: 0;
+}
+.LoginBox,
+.signUpBox {
+  background-color: white;
+  width: 25vw;
+  height: 70vh;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.login-toggle {
+  display: flex;
+  height: 3vmax;
+}
+.login-toggle > p {
+  color: rgba(0, 0, 0, 0.678);
+  font: 300 1vmax 'Roboto';
+  transition: all 0.3s;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+.loginForm,
+.signUpForm {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  padding: 2vmax;
+  justify-content: space-evenly;
+  height: 70%;
+  transition: all 0.5s;
+}
+.loginForm > div,
+.signUpForm > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.loginForm > div > input,
+.signUpForm > div > input {
+  padding: 1vmax 4vmax;
+  padding-right: 1vmax;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  font: 300 0.9vmax cursive;
+  outline: none;
+}
+.loginForm > div > svg,
+.signUpForm > div > svg {
+  position: absolute;
+  transform: translateX(1vmax);
+  font-size: 1.6vmax;
+  color: rgba(0, 0, 0, 0.623);
+}
+.loginForm > a {
+  color: rgba(0, 0, 0, 0.651);
+  text-decoration: none;
+  align-self: flex-end;
+  transition: all 0.5s;
+  font: 500 0.8vmax 'Gill sans';
+}
+.loginForm > a:hover {
+  color: black;
+}
+.loginBtn,
+.signUpButton {
+  border: none;
+  background-color: tomato;
+  color: white;
+  font: 300 0.9vmax 'Roboto';
+  width: 100%;
+  padding: 0.8vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 4px;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.219);
+}
+.loginBtn:hover {
+  background-color: rgb(179, 66, 46);
+}
+.signUp-toggle {
+  display: flex;
+  height: 3vmax;
+  justify-content: center;
+  margin-top: 0.5vmax;
+}
+.consoleButton {
+  z-index: 10000;
+  position: absolute;
+  top: 85%;
+}
+.errorHeading{
+  z-index: 100000;
+  color: crimson;
+  position: absolute;
+  top: 80%;
+  left: 40%;
+
+}
+.cookiesBtn{
+    z-index: 10000;
+    position: absolute;
+    top: 85%;
+    left: 80%
+  }
+

@@ -1,0 +1,32 @@
+footer {
+  height: 200%;
+  margin-top: 10vmax;
+  padding: 2vmax;
+  background-color: rgb(34, 33, 33);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.leftFooter {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.leftFooter > h4 {
+  text-align: center;
+  color: red;
+}
+.leftFooter p {
+  text-align: center;
+}
+.midFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.midFooter > h1 {
+  color: red;
+  padding: 10px;
+}

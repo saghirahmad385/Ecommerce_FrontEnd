@@ -1,0 +1,33 @@
+.heading {
+  color: aqua;
+  text-align: center;
+}
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.paginationBox {
+  display: flex;
+  justify-content: center;
+  padding: 6vmax;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.page-item {
+  list-style: none;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 1.78);
+  padding: 1vmax 1.7vmax;
+  cursor: pointer;
+}
+.filterBox {
+  width: 10vmax;
+  position: absolute;
+  top: 10vmax;
+  left: 4vmax;
+}
